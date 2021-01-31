@@ -1,0 +1,32 @@
+{
+ "properties": {
+  "displayName": "Flow log should be configured and enabled for every network security group",
+  "policyType": "Custom",
+  "description": "Audit for network security groups to verify if flow log resource is configured and if flow log status is enabled. Enabling flow log allows to log information about IP traffic flowing through network security group. It can be used for optimizing network flows, monitoring throughput, verifying compliance, detecting intrusions and more.",
+  "metadata": {
+   "createdBy": "beb427e1-ce95-4692-8faa-6a06031b080b",
+   "createdOn": "2021-01-31T08:39:19.8508704Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Flow log resource should be configured for every network security group",
+    "policyDefinitionId": "/subscriptions/af15e575-f948-49ac-bce0-252d028e9379/providers/Microsoft.Authorization/policyDefinitions/422344f5-2c6e-483f-a0c9-da59d9ed23f1",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Flow log should be enabled for every network security group flow log resource",
+    "policyDefinitionId": "/subscriptions/af15e575-f948-49ac-bce0-252d028e9379/providers/Microsoft.Authorization/policyDefinitions/56b6a01b-7ce7-477f-ad17-f43a07bf487b",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/af15e575-f948-49ac-bce0-252d028e9379/providers/Microsoft.Authorization/policySetDefinitions/4843bd478e4c4005846c40bd",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "4843bd478e4c4005846c40bd"
+}
